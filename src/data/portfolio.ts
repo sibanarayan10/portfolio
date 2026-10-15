@@ -3,7 +3,7 @@ export const profile = {
     name: 'Sibanarayan Choudhury', initials: 'SC', title: 'Backend-Focused Software Engineer',
     status: 'Building reliable systems', role: 'Associate Software Engineer', company: 'Capsitech',
     portrait: null as string | null, email: null as string | null, github: "https://github.com/sibanarayan10" as string | null,
-    linkedin: "https://www.linkedin.com/in/sibanarayan-choudhury/" as string | null, resume: 'https://drive.google.com/file/d/1s1VtBbHOvX6rBZ48X9gLpT4FxF0lQ8yd/view?usp=drive_link' as string | null,
+    linkedin: "https://www.linkedin.com/in/sibanarayan-choudhury/" as string | null, resume: 'https://drive.google.com/file/d/1TrNvFzYH9ibFAqMHX_oK5UOeTGlkJ40r/view?usp=sharing' as string | null,
     // A public form-service endpoint that validates submissions on its server.
     contactEndpoint: null as string | null,
     bio: "I'm a backend-focused software engineer working with distributed systems, microservices, cloud infrastructure, and AI-powered developer tools. I enjoy turning complex engineering challenges into reliable, efficient, and maintainable software.",
