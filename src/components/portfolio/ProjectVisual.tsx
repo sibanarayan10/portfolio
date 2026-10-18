@@ -148,8 +148,8 @@ export function ProjectVisual({ kind }: { kind: Project['kind'] }) {
     </div>;
     return <div className="project-visual architecture-preview">
         <div className="preview-top"><span className="mono">HII-CODER / EXECUTION PIPELINE</span><span className="tiny-dot" /></div>
-        <div className="architecture-flow"><div className="flow-node"><Code2 /><span>Submission</span><small>Core API</small></div><ArrowRight className="flow-arrow" /><div className="flow-node"><Layers3 /><span>Message queue</span><small>Apache Kafka</small></div><ArrowRight className="flow-arrow" /><div className="flow-node pool-node"><Box /><span>Container pool</span><small>Isolated workers</small><div className="pool-boxes"><i /><i /><i /></div></div></div>
+        <div className="architecture-flow"><div className="flow-node"><Code2 /><span>Submission</span><small>Core API</small></div><ArrowRight className="flow-arrow" /><div className="flow-node"><Layers3 /><span>Message queue</span><small>Apache Kafka</small></div><ArrowRight className="flow-arrow" /><div className="flow-node pool-node"><Box /><span>Docker sandbox</span><small>Isolated workers</small><div className="pool-boxes"><i /><i /><i /></div></div></div>
         <div className="flow-return"><Database size={15} /><span>Result persisted</span><ArrowDown size={15} /><span className="signal">Execution complete</span></div>
-        <div className="architecture-bottom"><span><span className="tiny-dot" /> WARM CONTAINERS</span><span className="signal">&lt; 500 ms startup</span></div>
+        <div className="architecture-bottom"><span><span className="tiny-dot" /> ISOLATED SANDBOX</span><span className="signal">&lt; 500 ms startup</span></div>
     </div>;
 }
