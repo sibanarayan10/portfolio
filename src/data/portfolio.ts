@@ -8,7 +8,26 @@ export const profile = {
     contactEndpoint: "https://formspree.io/f/mrpedglb" as string | null,
     bio: "I'm a backend-focused software engineer working with distributed systems, microservices, cloud infrastructure, and AI-powered developer tools. I enjoy turning complex engineering challenges into reliable, efficient, and maintainable software.",
 };
-export const experience = [{ company: profile.company, role: profile.role, dates: 'Present', location: null as string | null, responsibilities: [] as string[], technologies: [] as string[] }];
+export const experience = [
+    {
+        company: profile.company,
+        role: profile.role,
+        dates: 'Jan 2025 - Present',
+        location: 'Jodhpur, Rajasthan',
+        responsibilities: [
+            'Architected a high-throughput data ingestion pipeline system, integrated RabbitMQ and multi-threading, reducing processing time by 90%.',
+            'Developed and optimized REST APIs for read-heavy features, implementing caching to reduce database reads by 60% and improve API response time by 40%.',
+            'Contributed to the end-to-end development of an Audit Management Module for the SaaS financial platform, delivering it within 4 months and improving business value.',
+            'Implemented Azure Queue based bulk EPS submission (~4,000 clients monthly), accelerating compliance processing while significantly reducing manual intervention.',
+            'Redesigned the database schema and queries, resulting in 30% faster response times for dynamically fetched data.',
+            'Streamlined document editing by integrating WOPI and WebDAV protocols, enabling direct Microsoft Office editing and saving, reducing document handling time by 30%.',
+            'Collaborated with teams to resolve 50+ high priority bugs (P0), enhancing system stability and reducing critical failures.'
+        ],
+        technologies: ['Java', 'Spring Boot', '.NET', 'RabbitMQ', 'Azure Queue', 'PostgreSQL', 'SQL', 'WOPI', 'WebDAV', 'REST APIs', 'Caching']
+    }
+];
+
+export { outreachCompanies, type CompanyOutreach } from './outreach';
 export type Project = {
     slug: string; name: string; subtitle: string; description: string; categories: string[]; stack: string[];
     problem: string; approach: string; features: string[]; tradeoffs: string[]; results: { value: string; label: string }[];
