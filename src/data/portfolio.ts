@@ -4,6 +4,7 @@ export const profile = {
     status: 'Building reliable systems', role: 'Associate Software Engineer', company: 'Capsitech',
     portrait: null as string | null, email: "sibanarayan.code@gmail.com" as string | null, github: "https://github.com/sibanarayan10" as string | null,
     linkedin: "https://www.linkedin.com/in/sibanarayan-choudhury/" as string | null, resume: 'https://drive.google.com/file/d/1DDxBizxBkScS__Z3prkJ2st3DoO__YSX/view?usp=drive_link' as string | null,
+    portfolio: 'https://portfolio-ochre-omega-74.vercel.app/' as string | null,
     // A public form-service endpoint that validates submissions on its server.
     contactEndpoint: "https://formspree.io/f/mrpedglb" as string | null,
     bio: "I'm a backend-focused software engineer working with distributed systems, microservices, cloud infrastructure, and AI-powered developer tools. I enjoy turning complex engineering challenges into reliable, efficient, and maintainable software.",

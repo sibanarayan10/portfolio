@@ -35,7 +35,7 @@ Key Engineering Achievements & Impact:
 I would love to explore opportunities to contribute to ${company}'s engineering team. My resume, portfolio, and code repositories are linked below for your review:
 
 • Resume: https://drive.google.com/file/d/1DDxBizxBkScS__Z3prkJ2st3DoO__YSX/view?usp=drive_link
-• Portfolio: https://hiicoders.xyz/
+• Portfolio: https://portfolio-ochre-omega-74.vercel.app/
 • GitHub: https://github.com/sibanarayan10
 • LinkedIn: https://www.linkedin.com/in/sibanarayan-choudhury/
 
@@ -1602,6 +1602,60 @@ Sibanarayan Choudhury
             return `${salutation}
 
 Following up on my application for Java and enterprise cloud developer roles at SAP Labs. With my practical experience in enterprise financial modules, document integrations, and database optimization, I’d love to connect for a quick 5–10 minute chat.
+
+Best regards,
+Sibanarayan Choudhury`;
+        },
+    },
+
+    // 32. Akamai
+    {
+        id: 'akamai',
+        company: 'Akamai',
+        domain: 'Edge Computing, Content Delivery Networks (CDN) & Cloud Security',
+        category: 'Cloud & Systems',
+        targetRole: 'Software Engineer (Edge Cloud & Distributed Systems)',
+        headlineMatch: 'Low-latency distributed caching (60% DB read cut), network isolation, and container sandboxing',
+        matchScore: '97% Match',
+        keySkills: ['Java', 'Spring Boot', 'Distributed Systems', 'Caching', 'Docker Sandboxing', 'Network Isolation', 'Low Latency'],
+        talkingPoints: [
+            'Akamai powers global edge delivery and CDN traffic: your caching optimizations (60% DB read reduction, 40% latency cut) map directly to edge cache offload.',
+            'Docker sandboxing with strict network isolation and distroless containers (70% size cut) mirrors secure edge compute isolation.',
+            'Multi-threaded high-throughput ingestion with RabbitMQ (90% faster) demonstrates deep grasp of network socket concurrency.',
+        ],
+        subject: 'Application: Software Engineer (Edge Cloud & Systems) – Sibanarayan Choudhury',
+        generateBody: (recipient: string) => {
+            const salutation = recipient.trim() ? `Hi ${recipient.trim()},` : 'Dear Hiring Team,';
+            return `${salutation}
+
+I’ve been following Akamai’s leadership in planetary-scale edge delivery, cloud security, and the growth of the Akamai Connected Cloud platform.
+
+I currently work as an Associate Software Engineer at Capsitech, specializing in distributed systems, high-concurrency data pipelines, and low-latency architectures. Given Akamai’s focus on edge compute performance, content distribution, and secure network isolation, my hands-on background in distributed caching (60% read reduction) and secure container sandboxing makes my experience directly relevant to your platform engineering standards:
+
+Key Technical Highlights:
+• Distributed Caching & Latency Optimization: Designed caching strategies that cut database read pressure by 60% and improved API latency by 40% under burst access patterns.
+• Secure Container Sandboxing: Architected isolated execution environments using Docker with strict network isolation, bounded CPU/memory quotas, and distroless images (70% size reduction).
+• High-Throughput Processing: Engineered a multi-threaded data ingestion pipeline using RabbitMQ, reducing end-to-end processing time by 90%.
+
+I have attached my resume for your consideration. Additional details regarding my engineering work and background are available below:
+• Portfolio: https://portfolio-ochre-omega-74.vercel.app/
+• GitHub: https://github.com/sibanarayan10
+• LinkedIn: https://www.linkedin.com/in/sibanarayan-choudhury/
+
+I would welcome the opportunity to discuss how my distributed systems background aligns with Akamai’s edge engineering initiatives. Would you be available for a brief introductory conversation this week?
+
+Thank you for your time and consideration.
+
+Sincerely,
+Sibanarayan Choudhury
++91 7848916166 | sibanarayan.code@gmail.com`;
+        },
+        followUpSubject: 'Re: Application: Software Engineer (Edge Cloud & Systems) – Sibanarayan Choudhury',
+        generateFollowUp: (recipient: string) => {
+            const salutation = recipient.trim() ? `Hi ${recipient.trim()},` : 'Dear Hiring Team,';
+            return `${salutation}
+
+Following up on my application for edge cloud and distributed systems engineering roles at Akamai. With my practical background in low-latency caching, secure container sandboxing, and high-throughput pipelines, I’d love to connect for a quick 5–10 minute chat.
 
 Best regards,
 Sibanarayan Choudhury`;
