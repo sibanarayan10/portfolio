@@ -3,7 +3,7 @@ export const profile = {
     name: 'Sibanarayan Choudhury', initials: 'SC', title: 'Backend-Focused Software Engineer',
     status: 'Building reliable systems', role: 'Associate Software Engineer', company: 'Capsitech',
     portrait: null as string | null, email: "sibanarayan.code@gmail.com" as string | null, github: "https://github.com/sibanarayan10" as string | null,
-    linkedin: "https://www.linkedin.com/in/sibanarayan-choudhury/" as string | null, resume: 'https://drive.google.com/file/d/1DDxBizxBkScS__Z3prkJ2st3DoO__YSX/view?usp=drive_link' as string | null,
+    linkedin: "https://www.linkedin.com/in/sibanarayan-choudhury/" as string | null, resume: 'https://drive.google.com/file/d/12aCXXiPDOsIJUHxsRsZhO65Q6w2Ku5tG/view?usp=drive_link' as string | null,
     portfolio: 'https://portfolio-ochre-omega-74.vercel.app/' as string | null,
     // A public form-service endpoint that validates submissions on its server.
     contactEndpoint: "https://formspree.io/f/mrpedglb" as string | null,
@@ -17,6 +17,7 @@ export const experience = [
         location: 'Jodhpur, Rajasthan',
         responsibilities: [
             'Architected a high-throughput data ingestion pipeline system, integrated RabbitMQ and multi-threading, reducing processing time by 90%.',
+            'Integrated Modulr and Telleroo payment APIs for automated payout workflows, webhook lifecycle event handling, and real-time transaction reconciliation.',
             'Developed and optimized REST APIs for read-heavy features, implementing caching to reduce database reads by 60% and improve API response time by 40%.',
             'Contributed to the end-to-end development of an Audit Management Module for the SaaS financial platform, delivering it within 4 months and improving business value.',
             'Implemented Azure Queue based bulk EPS submission (~4,000 clients monthly), accelerating compliance processing while significantly reducing manual intervention.',

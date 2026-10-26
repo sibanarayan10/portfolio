@@ -1661,4 +1661,56 @@ Best regards,
 Sibanarayan Choudhury`;
         },
     },
+
+    // 33. ACI Worldwide
+    {
+        id: 'aciworldwide',
+        company: 'ACI Worldwide',
+        domain: 'Real-Time Payments (RTP), Electronic Bill Presentment (EBPP) & Fraud Management',
+        category: 'Fintech / Payments',
+        targetRole: 'Software Engineer – Real-Time Payments & Java Backend',
+        headlineMatch: 'Production payment rail integrations (Modulr / Telleroo), 90% pipeline acceleration with RabbitMQ, and financial compliance modules',
+        matchScore: '98% Match',
+        keySkills: ['Java', 'Spring Boot', 'Real-Time Payments', 'Payment Gateways (Modulr / Telleroo)', 'RabbitMQ', 'Apache Kafka', 'Financial Compliance', 'Audit Systems', 'Microservices'],
+        talkingPoints: [
+            'Hands-on payment rail integrations: Integrated Modulr and Telleroo APIs for automated payout workflows, webhook lifecycle events, and transaction reconciliation.',
+            'High-throughput queue processing: Built multi-threaded RabbitMQ ingestion (90% speedup) that directly maps to ACI’s ISO 20022 and real-time transaction clearing queues.',
+            'Enterprise financial reliability: Delivered an Audit Management module in 4 months, automated bulk compliance queues for ~4,000 monthly clients, and resolved 50+ P0 production defects.',
+        ],
+        subject: 'Application: Software Engineer (Payments & Java) – Sibanarayan Choudhury',
+        generateBody: (recipient: string) => {
+            const salutation = recipient.trim() ? `Hi ${recipient.trim()},` : 'Dear Hiring Team,';
+            return `${salutation}
+
+I’ve been following ACI Worldwide’s work powering mission-critical real-time payments and ISO 20022 transaction clearing for top financial institutions.
+
+I currently work as an Associate Software Engineer at Capsitech building distributed systems for financial SaaS platforms, including direct integrations with payment rails like Modulr and Telleroo. Given ACI Worldwide’s focus on high-throughput payment processing and sub-second clearing, my hands-on background makes my experience directly relevant to your platform engineering standards:
+
+Key Technical Highlights:
+• Payment Rail Integrations: Integrated Modulr and Telleroo payment APIs for automated payout workflows, webhook event handling, and real-time transaction reconciliation.
+• Ingestion Throughput: Architected a multi-threaded RabbitMQ pipeline, cutting transaction processing latency by 90%.
+• Financial Reliability & Scale: Shipped an enterprise Audit Management module in 4 months, automated compliance for ~4,000 monthly clients, and resolved 50+ P0 defects under zero-defect financial standards.
+
+I have attached my resume for your consideration. Additional background and code samples are available below:
+• Portfolio: https://portfolio-ochre-omega-74.vercel.app/
+• GitHub: https://github.com/sibanarayan10
+• LinkedIn: https://www.linkedin.com/in/sibanarayan-choudhury/
+
+Would you be open to a brief introductory conversation this week to discuss how I can contribute to ACI Worldwide's engineering team?
+
+Sincerely,
+Sibanarayan Choudhury
++91 7848916166 | sibanarayan.code@gmail.com`;
+        },
+        followUpSubject: 'Re: Application: Software Engineer (Payments & Java) – Sibanarayan Choudhury',
+        generateFollowUp: (recipient: string) => {
+            const salutation = recipient.trim() ? `Hi ${recipient.trim()},` : 'Dear Hiring Team,';
+            return `${salutation}
+
+Following up on my application for payments and Java backend engineering roles at ACI Worldwide. With my practical background in Modulr/Telleroo payment integrations, high-throughput queue ingestion, and financial compliance systems, I’d love to connect for a quick 5–10 minute chat.
+
+Best regards,
+Sibanarayan Choudhury`;
+        },
+    },
 ];
